@@ -8,30 +8,52 @@
 <!-- forms where you fill out info and is sent some where processed by a server or data base -->
 <!-- collect user input and sent to sever for processing -->
 <!-- form element acts as a container for input elements such as textfields, inputfields, checkbox, radio buttons, submit buttons -->
-  <form>
+
+<!-- form attribute action -->
+<!-- action attribute defines an action to be performed when the form is submitted -->
+<!-- the value will link to a file for a submission request or hit a url for a server request -->
+    <form>
+    
+      <!-- method specifies http method to be used to send form data -->
+      
+  <!-- <form method="post"> post transaction(method), when we want to send data to a sever. -->  
+  <!-- <form method="get"> get method, used when request data from specified resource. append data to url. Never use get to send sensative data.  -->
+  <!-- <form target="_top"> diplay reponse in full body of the window -->
+  <!-- <form target="_parent"> displays response in parent frame -->
+  <!-- <form target="_self"> display response in the same window, this is a default setting already. Will have to add extra code. -->
+  <!-- <form target="_blank"> used to specify a response after the submit which will open a new browser tab -->
+  <!-- <form action="/action_page.php"> will allow our own on click event to submit  -->
+  
   <!-- input types will validate what is going into an input -->
   <!-- input element (input field) -->
   <!-- input type text. Will take letters, special characters, and numbers. Will take it as text or string format -->
+  
     <input type="text">
+    
   <!-- input type number -->
   <!-- will have incrimentors and decromentors which means go up and down for the number -->
+    
     <input type="number">
     
   <!-- check box element -->
   <!-- adds a check mark to a box to validate true or false simoultainisly -->
+    
     <input type="checkbox">
     
   <!-- radio button -->
   <!-- validate true on or false off -->
+    
     <input type="radio">
     
   <!-- submit button -->
   <!-- submit button will take all info in the fields and when submit is hit. It will gather all the information at once and then do what ever we want to it. -->
   <!-- when you hit enter button it will submit the submit button -->
+    
     <input type="submit">
     
   <!-- button -->
   <!-- the value attribute give the button some text -->
+  
     <input type="button" value="Click me">
     
   <!-- label tag/element -->
@@ -41,6 +63,7 @@
   <!-- for attribute must always belong to a label element -->
   <!-- id and name attribute must always belong to a input element -->
   <!-- the name and id element for an input label should match -->
+  
     <label for="firstname">First Name:</label>
     <input id="firstname" name="firstname" type="text"><br>
     <label for="lastname">Last Name:</label>
@@ -57,12 +80,14 @@
     
  <!-- you bind the input and label elements from having the "for" match the "id" attributes -->
  <!-- allowing for the input element to be on the inside of the label element allows for the input elmeent to be better used mobily. -->
+    
     <label for="male">
       <input name="gender" id="male" type="radio">
       Male
       </label>
       
  <!-- check box elements -->
+ 
     <input name="skateboarding" id="skateboarding" type="checkbox" value="skateboarding">
     <label for="skateboarding">Skateboarding</label><br>
     
