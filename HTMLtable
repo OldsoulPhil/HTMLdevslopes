@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>HTML BASICS</title>
+</head>
+
+<body>
+  <!-- name of the table -->
+  <h3>Skateboard Things</h3>
+  <!-- this is a data table and can help display data on a website -->
+  <!-- this is how you create a table -->
+  <table>
+  <!-- this is a table row -->
+  <!-- this is how we create rows for the table -->
+    <tr>
+  <!-- th this is a table header -->
+      <th>Deck</th>
+      <th>Trucks</th>
+      <th>Bearings</th>
+    </tr>
+    <tr>
+  <!-- now we are creating table cells in a new row -->
+  <!-- td this is a table cell -->
+      <td>Toy Machine</td>
+      <td>Destructo's</td>
+      <td>Bone Swiss</td>
+    </tr>
+    
+    <tr>
+      <td>Fast Lightning</td>
+      <td>Team Hungerforce</td>
+      <td>Swiss Cheese</td>
+    </tr>
+</body>
+</html>
