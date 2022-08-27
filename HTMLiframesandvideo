@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Only for show yo</title>
+</head>
+
+<body>
+<!-- iframe tag with attributes -->
+<!-- src attribute will link to a video -->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/EJBe90yH508" frameborder="0"
+  allow="accelerometer: autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- website -->
+<!-- not all websites will allow you to embed a website or video -->
+  <iframe src="https://devslopes.com" frameborder="0" width="500" height="600px></iframe>
+  
+<!-- the next tag is the video tag -->
+<!-- normally the source is in the video element as src="" -->
+  <video width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+  </video>
+  
+</body>
+</html>
