@@ -1,4 +1,4 @@
-# devslopBrenen
+# devslopeBrenen
 All projects and creations created with Devslopes! 
 
 Hello,
