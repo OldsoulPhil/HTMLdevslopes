@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>HTML BASICS</title>
+</head>
+<body>
+  <!-- header tags -->
+  <!-- h1 can only have 1 per html page -->
+  <h1>This is a heading 1</h1>
+  <h2>This is a heading 2</h2>
+  <h3>This is a heading 3</h3>
+  <h4>This is a heading 4</h4>
+  <h5>This is a heading 5</h5>
+  <h6>This is a heading 6</h6>
+  
+  <!-- paragraph -->
+  <!-- will have an opening and endding line break -->
+  <p>This is a paragraph of awesome information</p>
+  
+  <!-- div tag used as a container -->
+  <div>This is an example</div>
+  
+  <!-- link tag "a" link reference -->
+  <a href="https://google.com">Google Search</a>
+  
+  <!-- horizontal rule -->
+  <!-- define a phinatic break in the html. Seperate content or show a change in html -->
+  <!-- extends entire view of the view port. -->
+  <hr>
+  
+  <!-- br is a break tag -->
+  <!-- what they are good for is adding a line break for address or poems -->
+  <!-- can be used in and out of an element -->
+  <br>
+  
+</body>
+</html>
