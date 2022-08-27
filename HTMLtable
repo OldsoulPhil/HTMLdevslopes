@@ -31,5 +31,8 @@
       <td>Team Hungerforce</td>
       <td>Swiss Cheese</td>
     </tr>
+    
+<!-- it is recommended that you use CSS for table styles -->
+    
 </body>
 </html>
