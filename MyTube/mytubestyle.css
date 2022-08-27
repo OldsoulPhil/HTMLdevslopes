@@ -1,0 +1,203 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.multiplayer {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #999;
+}
+
+button a {
+  color: white;
+}
+
+.headerone {
+  color: white;
+  padding-top: 40px;
+  padding-left: 40px;
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+
+  to {
+    left: 625px;
+  }
+}
+
+.tabled {
+  padding: 30px;
+}
+
+body {
+  margin: 0px;
+  background-image: url(https://imgs.search.brave.com/S-EiJ08xy7LFsM4q7MuCii--faVL8Fa9LhuWcHbIn1c/rs:fit:759:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5N/STQ0TWRSMTd6QnVG/ek9KOFRFaTZBSGFF/byZwaWQ9QXBp);
+  background-repeat: no-repeat;
+  background-size: 1920px 1200px;
+}
+
+.active {
+  background-color: royalblue;
+}
+
+.button {
+  background-color: dodgerblue;
+  border-radius: 10px;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.button2 {
+  background-color: dodgerblue;
+  border-radius: 10px;
+  animation-name: example1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.button3 {
+  background-color: dodgerblue;
+  border-radius: 10px;
+  animation-name: example2;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+div {
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  width: 800px;
+  height: 625px;
+  margin-left: 25%;
+}
+
+p {
+  width: 1525px;
+  background-color: white;
+  margin-left: 90px;
+}
+
+li select {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.videoiframe {
+  margin-left: 90px;
+}
+
+#radiopublic,
+#radioprivate {
+  margin-left: 30px;
+}
+
+.formheader {
+  color: none;
+  padding-left: 30px;
+}
+
+@keyframes example {
+  0% {
+    background-color: dodgerblue;
+  }
+
+  25% {
+    background-color: blue;
+  }
+
+  50% {
+    background-color: darkblue;
+  }
+
+  75% {
+    background-color: purple;
+  }
+
+  100% {
+    background-color: black;
+  }
+}
+
+@keyframes example1 {
+  0% {
+    background-color: dodgerblue;
+  }
+
+  25% {
+    background-color: blue;
+  }
+
+  50% {
+    background-color: orange;
+  }
+
+  75% {
+    background-color: darkorange;
+  }
+
+  100% {
+    background-color: salmon;
+  }
+}
+
+@keyframes example2 {
+  0% {
+    background-color: pink;
+  }
+
+  25% {
+    background-color: lightpink;
+  }
+
+  50% {
+    background-color: hotpink;
+  }
+
+  75% {
+    background-color: red;
+  }
+
+  100% {
+    background-color: salmon;
+  }
+}
+
+#videotitle,
+#description,
+#video,
+#choice,
+#submit {
+  margin-left: 30px;
+}

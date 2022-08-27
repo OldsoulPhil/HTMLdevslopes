@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="BYOUTUBE" content="My very own youtube page that I created.">
+  <title>My Youtube page</title>
+  <link rel="stylesheet" href="mytubestyle.css">
+</head>
+
+<body>
+  <nav>
+    <ul class="multiplayer">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="./collection/destiny.html">Collection 1</a></li>
+      <li><a href="./collection/music.html">Collection 2</a></li>
+      <li><a href="./collection/crypto.html">Collection 3</a></li>
+      <li><a class="active" href="newvideo.html">New Video</a></li>
+    </ul>
+  </nav>
+  <h1 class="headerone">Add New Video</h1>
+  <div>
+    <form>
+      <h2 class="formheader">Video Title</h2>
+      <input id="videotitle" type="text" value="Video title">
+
+      <h2 class="formheader">Description</h2>
+      <textarea id="description" rows="8" cols="40">Description
+    </textarea>
+
+      <h2 class="formheader">Video</h2>
+      <input id="video" type="file" value="Choose File"><br><br>
+
+      <select id="choice" name="choice">
+        <option value="collection 1">Collection 1</option>
+        <option value="collection 2">Collection 2</option>
+        <option value="collection 3">Collection 3</option>
+      </select><br><br>
+
+      <input id="radiopublic" type="radio" name="choice">
+      <label id="publiclabel" class="header1" for="radio public">Public</label>
+
+      <input id="radioprivate" type="radio" name="choice">
+      <label id="privatelabel" class="header1" for="radio private">Private</label><br><br>
+
+      <input id="submit" type="submit" value="Upload Video">
+
+    </form>
+  </div>
+</body>
+
+</html>
