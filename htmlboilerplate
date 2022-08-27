@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="My cool website">
+    <link rel="stylesheet" href="./some/path.my.css">
+    <link rel='icon" href="./some/icon.pathfile.png">
+    <title>HTML BASICS</title>
+  </head>
+  
+  <body>
+    <h1>My website header h1 tag</h1>
+    <p>this is a paragraph tag</p>
+    
+    <script type="text/jacascript" src="./some/path/main.js"></script>
+  </body>
+  
+</html>
