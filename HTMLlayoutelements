@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>HTML BASICS</title>
+<head>
+
+<body>
+<!-- header element. Opening closing tag. defines the heading of a webpage or a section -->
+<!-- contains logo or text -->
+<!-- can put what ever you want but needs to be relative -->
+<!-- can be used mutiple times -->
+<!-- no footer or address element -->
+  <header>
+    <h1>This is the header of a new section</h1>
+  </header>
+
+<!-- next element is the nav element navigation bar -->
+<!-- can add <a href links> -->
+<!-- anything that can give you navigation -->
+  <nav>
+    <a href="/">Home</a>
+    <a href="/about"></a>
+    <a href="/cool"></a>
+  </nav>
+  
+<!-- the next element is a section element -->
+<!-- break up logical parts of a website with parts that pertain to each other -->
+  <section>
+    <h2>About</h2>
+  </section>
+  <section>
+    <h2>Cool Stuff</h2>
+  </section>
+  
+<!-- Next element is an article which is good for form or a blog post. -->
+<!-- you can use a h1 only if you have not used one before otherwise you will probably use a h2 tag-->
+  <article>
+    <h2>My article titel</h2>
+  </article>
+  
+<!-- Footer is the next element using opening closing tags -->
+<!-- contact info, social meadia info, copyright, any legal information -->
+<!-- contain information and links -->
+  <footer>
+    <a href="https://www.facebook.com">Facebook</a>
+    <div>Copy right info</div>
+<!-- Last element is the address element -->
+    <address>
+      Some cool address of some fancy place
+    </address>
+  </footer>
+  
+
+  
+  
+</body>
+</html>
