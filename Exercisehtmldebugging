@@ -1,0 +1,163 @@
+Each exercise link will take you to a file in the devslopes-learning Github repository.
+When you open the link, copy/paste the source code you see into your own project or codepen.io to fix the errors and complete the exercise.
+
+Exercise 1 Requirements
+Fix all incorrectly closed HTML tags or missing closing tags in the HTML document.
+
+Exercise-1
+
+*******************************************************************************************************
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Debugging Exercise 1</title>
+</head>
+<body>
+  <h1>HTML Debugging: Close your Tags!</h>
+  <p>Here are a few reasons why you should learn to code:</p>
+  <ul>
+    <li>Computer programmers enjoy a high-paying career<li>
+    <li>You can work anywhere in the world
+    <li>Coding can help you think analytically and solve problems<li>
+  <ul>
+  <h2>What will you learn in Devslopes?<h2/>
+  <p>You will learn full stack development! This includes:<p>
+  <ol>
+    <li>HTML<li>
+    <li>CSS<li>
+    <li>Javascript<li>
+    <li>React<li>
+    <li>NodeJs<li>
+    <li>API's
+    <li>MongoDB<li>
+</body>
+</html> 
+-->
+
+****************** Exercise 1 fixed issues ******************
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Debugging Exercise 1</title>
+</head>
+<body>
+  <h1>HTML Debugging: Close your Tags!</h1>
+  <p>Here are a few reasons why you should learn to code:</p>
+  <ul>
+    <li>Computer programmers enjoy a high-paying career</li>
+    <li>You can work anywhere in the world</li>
+    <li>Coding can help you think analytically and solve problems</li>
+  </ul>
+  <h2>What will you learn in Devslopes?</h2>
+  <p>You will learn full stack development! This includes:</p>
+  <ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+    <li>React</li>
+    <li>NodeJs</li>
+    <li>API's</li>
+    <li>MongoDB</li>
+  </ol>
+</body>
+</html> 
+-->
+
+***********************************************************************************************************
+
+Exercise 2 Requirements
+Fix the incorrect syntax in the HTML document so all three links will work.
+
+Exercise-2
+
+************************************************************************************************************
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Debugging Exercise 2</title>
+</head>
+<body>
+    <h1>HTML Debugging: Where are my links?!</h1>
+    <p>I'm supposed to have three links on this page-- one to Devslopes, one to MDN Web Docs, and one to some super cool code kitty! They're all broken!!!</p>
+    <a href="https://www.devslopes.com">Dang</a>
+    <br>
+    <a herf="https://developer.mozilla.org">Why is this broken??? :(</a>
+    <br>
+    <a href="https://hostrider.com/" Help this code kitty link is broken!!!></a>
+</body>
+</html> 
+-->
+
+*************************** Exercise 2 fixed issues **********************************
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Debugging Exercise 2</title>
+</head>
+<body>
+    <h1>HTML Debugging: Where are my links?!</h1>
+    <p>I'm supposed to have three links on this page-- one to Devslopes, one to MDN Web Docs, and one to some super cool code kitty! They're all broken!!!</p>
+    <a href="https://www.devslopes.com">Dang</a>
+    <br>
+    <a href="https://developer.mozilla.org">Why is this broken??? :(</a>
+    <br>
+    <a href="https://hostrider.com/">Help this code kitty link is broken!!!</a>
+</body>
+</html>
+
+***************************************************************************************************
+
+Exercise 3 Requirements
+Fix the incorrect syntax in the HTML document so all three images will display.
+
+Exercise-3
+
+***************************************************************************************************
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Debugging Exercise 3</title>
+</head>
+<body>
+  <h1>HTML Debugging: Where are my images?</h1>
+  <p>I should have three images here... something is wrong 🤔</p>
+  <img scr="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" width="300">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" width="300">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png
+</body>
+</html> 
+-->
+
+********************** Exercise 3 fixed issues *****************************************
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Debugging Exercise 3</title>
+</head>
+<body>
+  <h1>HTML Debugging: Where are my images?</h1>
+  <p>I should have three images here... something is wrong 🤔</p>
+  <img scr="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" alt="web three image" width="300">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" alt="CSS image" width="300">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png alt="Javascript image" width="300">
+</body>
+</html> 
+-->
