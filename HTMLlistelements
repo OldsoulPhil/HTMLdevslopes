@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>HTML BASICS</title>
+</head>
+<body>
+  <!-- unordered list also known as a bullet list -->
+  <h3>Un-ordered list</h3>
+  <!-- ul is un-ordered list -->
+  <!-- can style or add "type attributes" to un-ordered list -->
+  <!-- square, circle -->
+  <ul type="square">
+  <!-- li is list item -->
+    <li>List Item</li>
+  </ul>
+  
+<!-- moving on to Ordered Lists -->
+  <h3>Alphabetized List</h3>
+  <!-- ol stands for Ordered list which uses numbers to order the list -->
+  <!-- you can get fancy with an ordered list as well as a un-ordered list -->
+  <!-- uppercase -->
+  <ol type="A">
+    <li>List Item</li>
+  </ol>
+  <!-- lower case -->
+  <ol type="a">
+    <li>List Item</li>
+  </ol>
+  <!-- Upper case roman numerals -->
+  <ol type="I">
+    <li>List Item</li>
+  </ol>
+  <!-- Lower case roman numerals -->
+  <ol type="i">
+    <li>List Item</li>
+  </ol>
+
+</body>
+</html>
