@@ -12,7 +12,8 @@
 <!-- form attribute action -->
 <!-- action attribute defines an action to be performed when the form is submitted -->
 <!-- the value will link to a file for a submission request or hit a url for a server request -->
-    <form>
+    <form autocomplete="on">
+    <!-- this autocomplete will turn on the form to fill in data -->
     
       <!-- method specifies http method to be used to send form data -->
       
@@ -206,7 +207,37 @@
     <!-- <input type="search">
     <!-- <input type="file">
     
+        <!-- input field attributes -->
+    <!-- <input type="text" value="sample data" readonly> -->
+    <!-- <input type="text" value="sample data" disabled> -->
+        <!-- size controls the width of the characters -->
+        <!-- width of the box -->
+    <!-- <input type="text" value="sample data" size="8"> -->
+        <!-- maxlength is what controls the size of the amount of characters -->
+    <!-- <input type="text" value="sample data" maxlength="15"> -->
     
+    <!-- <input
+            id="atributes"
+            type="number"
+            value="5"
+            size="20"
+            maxlength="15"
+            min="5"
+            max="100" 
+            <!-- multiple will allow more than one email or file on an input -->
+            multiple
+            <!-- placeholders text -->
+            placeholder="First name"
+            <!-- required attribute, means required by the user to submit data -->
+            required
+            <!-- step attribute deals with numbers and we want to incriment -->
+            <!-- use usally only with step -->
+            step="5"
+            <!-- autofocus attribute -->
+            autofocus
+            <!-- autocomplete attribute -->
+            autocomplete="off"
+            -->
     
     <br><br><br>
     <input type="submit">
