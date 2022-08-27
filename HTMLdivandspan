@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Divs and Spans</title>
+</head>
+
+<body>
+<!-- div tags are known to be building blocks (block element) which are stackable -->
+<!-- can be used as a container or a wrapper for other elements -->
+  <div>Sample Text</div>
+  <div>Sample Text</div>
+  <div>Sample Text</div>
+  
+<!-- the div will group other div's and elements together -->
+<!-- the first div acts as the container -->
+  <div>
+    <button>Click me</button>
+    <div>More Text</div>
+    <div>More Text</div>
+    <div>More Text</div>
+  </div>
+  
+<!-- we will put an input element inside of a div acting as a container -->
+<!-- an input element is a box that you can add text or numbers to -->
+
+<!-- class attribute is used to point to a class name in a style sheet. Help manipulate other elements with class name. -->
+
+<!-- you can also include id, title, along with the class type -->
+<!-- title attribute will allow you to hover over an input and see what it is called -->
+
+  <div id="inputId" title="some cool inputs" class="input-wrapper">
+  
+  <!-- the type for these will make that input the type the input is asking for -->
+  
+    <input type="text">
+    <input type="number">
+  </div>
+ 
+<!-- span tag is an inline container element -->
+<!-- mainly used to mark up a document. -->
+<!-- keeps elements inline with other elements -->
+  <span>
+    Hello there!
+  </span>
+  
+  
+</body>
+</html>
