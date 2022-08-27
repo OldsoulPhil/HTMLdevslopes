@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>HTML BASICS</title>
+</head>
+
+<body>
+  <!-- button element -->
+  <!-- text inbetween the opening and closing -->
+  <button>Click Me</button>
+  
+  <!-- you can add attributes to a button. -->
+  <!-- there are a few button types -->
+  <!-- this is just a standard button type -->
+  <button type="button">Click Me</button>
+  
+  <!-- type submit is another button type used for forms -->
+  <button type="submit">Click Me</button>
+  
+  <!-- type reset resets a form to all of its default initial values -->
+  <button type="reset">Click Me</button>
+  
+  <!-- you can add more elements inside a button -->
+  <!-- &#9734 is unicode -->
+  <button type="button"><span>&#9734;</span><span>Click Me</span></button>
+  
+  <!-- you can throw in some styled elements into the button tag -->
+  
+<!-- the next tag element is going to be an Image -->
+
+  <!-- single tag does not come in opening and closing -->
+  <!-- you have two attributes you always need for img -->
+  <!-- attributes are "(src="")" which is the source or where to pull the image from and 
+  "(alt="")" is an alt tag or alternative tag, helps determines what the image is -->
+  <img src="https://google.com/yourcorrect/path/youshouldhavehere.png" alt="super cool cat">
+  
+  
+  
+</body>
+<html>
