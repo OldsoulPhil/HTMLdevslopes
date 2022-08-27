@@ -34,5 +34,25 @@
   <!-- can be used in and out of an element -->
   <br>
   
+<!-- styling elements to add to other simple elements to decorate -->
+  
+  <!-- bold tag to style -->
+  <b></b>
+  
+  <!-- strong tag is the same as bold almost but still styles -->
+  <strong></strong>
+  
+  <!-- italizing some text -->
+  <i></i>
+  
+  <!-- a more symantic way is using em or emphazise. -->
+  <em></em>
+  
+  <!-- underline tag styles html text -->
+  <u></u>
+  
+  <!-- block quote style/indents the text for us -->
+  <blockquote cite="https://www.google.com">This is the end of the world as we know it.</blockquote>
+  
 </body>
 </html>
