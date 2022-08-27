@@ -192,6 +192,22 @@
       This is some starter text.
     </textarea>
     
+    <!-- email element/tag -->
+    <label for="email">Email</label><br>
+    <input type="email"><br>
+    
+        <!-- other input types -->
+    <!-- <input type="color">
+    <!-- <input type="month">
+    <!-- <input type="date">
+    <!-- <input type="week">
+    <!-- <input type="password">
+    <!-- <input type="range">
+    <!-- <input type="search">
+    <!-- <input type="file">
+    
+    
+    
     <br><br><br>
     <input type="submit">
     
